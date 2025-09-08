@@ -51,21 +51,12 @@ export function HeroSection() {
                 Start Your Journey
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <a href="MembershipPage">
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-accent text-accent hover:bg-accent hover:text-accent-foreground bg-transparent"
-                >
-                  View Membership Plans
-                </Button>
-              </a>
             </div>
           </div>
 
           {/* Image Right */}
           <div className="relative">
-            <div className="aspect-[4/5] rounded-lg overflow-hidden bg-card border border-border">
+            <div className="aspect-[5/5] rounded-lg overflow-hidden bg-card border border-border">
               <img
                 src="/professional-gym-interior-with-modern-equipment-an.jpg"
                 alt="Body Fitness Zone gym interior"
@@ -73,10 +64,13 @@ export function HeroSection() {
               />
             </div>
             {/* Floating Card */}
-            <div className="absolute -bottom-6 -left-6 bg-card border border-border rounded-lg p-6 shadow-lg">
-              <div className="text-sm text-muted-foreground">Join Today</div>
+            <div className="absolute -bottom-4 -left-6 bg-card border border-border rounded-lg shadow-lg">
+              {/* <div className="text-sm text-muted-foreground">Join Today</div>
               <div className="text-2xl font-bold text-primary">$49/month</div>
-              <div className="text-sm text-accent">No commitment required</div>
+              <div className="text-sm text-accent">No commitment required</div> */}
+               <a href="/" className="flex items-center text-xl font-bold text-primary hover:text-primary/80 transition-colors">
+                <img src="/logo.png" alt="Body Fitness Zone" className="h-30 w-auto" />
+            </a>
             </div>
           </div>
         </div>
