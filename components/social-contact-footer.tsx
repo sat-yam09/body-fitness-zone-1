@@ -39,9 +39,6 @@ export function SocialContactFooter() {
   const quickLinks = [
     { name: "Membership Plans", href: "/membership" },
     { name: "Personal Training", href: "/training" },
-    { name: "Group Classes", href: "/classes" },
-    { name: "Nutrition Counseling", href: "/nutrition" },
-    { name: "Facility Tour", href: "/tour" },
     { name: "Contact Us", href: "/contact" },
   ]
 
