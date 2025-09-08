@@ -7,7 +7,6 @@ import { Menu, X } from "lucide-react"
 const navItems = [
   { name: "HOME", href: "/" },
   { name: "TRAINING", href: "/training" },
-  { name: "TOUR", href: "/tour" },
   { name: "CONTACT", href: "/contact" },
 ]
 
@@ -20,7 +19,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/" className="text-xl font-bold text-primary hover:text-primary/80 transition-colors">
+            <a href="/" className="text-xl font-bold text-red-800 hover:text-red-600 transition-colors">
               Body Fitness Zone
             </a>
           </div>
